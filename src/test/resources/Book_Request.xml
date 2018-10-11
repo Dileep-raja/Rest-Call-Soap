@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:ser="http://service.approach.up.bottom.series.jaxws.com/">
+	<soapenv:Header />
+	<soapenv:Body>
+		<ser:getBookNameBasedOnISBN>
+			<!--Optional: -->
+			<arg0>ISBN-2134</arg0>
+		</ser:getBookNameBasedOnISBN>
+	</soapenv:Body>
+</soapenv:Envelope>

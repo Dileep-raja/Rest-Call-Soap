@@ -1,0 +1,19 @@
+<xs:schema xmlns:tns="http://service.approach.up.bottom.series.jaxws.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified" targetNamespace="http://service.approach.up.bottom.series.jaxws.com/" version="1.0">
+
+  <xs:element name="getBookNameBasedOnISBN" type="tns:getBookNameBasedOnISBN"/>
+
+  <xs:element name="getBookNameBasedOnISBNResponse" type="tns:getBookNameBasedOnISBNResponse"/>
+
+  <xs:complexType name="getBookNameBasedOnISBN">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getBookNameBasedOnISBNResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

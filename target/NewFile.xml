@@ -1,0 +1,8 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<ns2:getBookNameBasedOnISBNResponse
+			xmlns:ns2="http://service.approach.up.bottom.series.jaxws.com/">
+			<return>Microbiology</return>
+		</ns2:getBookNameBasedOnISBNResponse>
+	</soap:Body>
+</soap:Envelope>
