@@ -14,7 +14,7 @@
 	<properties>
 		<cxf.version>3.0.2</cxf.version>
 		<cxf.scope>compile</cxf.scope>
-		<spring.version>4.1.0.RELEASE</spring.version>
+		<spring.version>6.0.0</spring.version>
 		<compileSource>1.8</compileSource>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
